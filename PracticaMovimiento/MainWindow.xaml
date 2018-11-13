@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="600" Width="800">
     <Canvas>
-        <Canvas Visibility="Visible" Name="miCanvas" KeyDown="miCanvas_KeyDown" Focusable="True">
+        <Canvas Visibility="Visible" Name="miCanvas" KeyDown="miCanvas_KeyDown" KeyUp="miCanvas_KeyUp" Focusable="True">
             <Image Name="imgGato" Source="cat.png" Width="96" Height="90" Canvas.Left="309" Canvas.Top="470" Stretch="UniformToFill"/>
             <Image Name="imgCarro" Source="car.png" Width="100" Height="60" Stretch="Uniform" Canvas.Left="32" Canvas.Top="139" />
             <TextBlock x:Name="lblInterseccionX" Canvas.Left="10" TextWrapping="Wrap" Canvas.Top="10"><Run Text="No hay intersecci"/><Run Text="ón en X"/></TextBlock>
